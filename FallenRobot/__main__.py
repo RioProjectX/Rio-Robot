@@ -75,7 +75,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Halo! {}
+Halo!
 Saya Adalah Mirc Robot, Group Manager / Music Voice Chat Dengan Fitur Yang Sangat Menarik.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 • Version 7.9 Last
