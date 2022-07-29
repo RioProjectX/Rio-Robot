@@ -11,18 +11,18 @@ from FallenRobot import telethn as tbot
 
 
 PHOTO = [
-    "https://telegra.ph/file/660176f499df4e28ebc58.jpg",
-    "https://telegra.ph/file/660176f499df4e28ebc58.jpg",
+    "https://telegra.ph/file/5b39746a9cbb3b7273c3a.jpg",
+    "https://telegra.ph/file/5b39746a9cbb3b7273c3a.jpg",
 ]
 
 @register(pattern=("/alive"))
 async def awake(event):
-  TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ Rio ✘ ʀᴏʙᴏᴛ​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-  TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [Rio](https://t.me/fckualot)** \n\n"
+  TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ Mirc ✘ ʀᴏʙᴏᴛ​**\n━━━━━━━━━━━━━━━━━━━\n\n"
+  TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [riasyee](https://t.me/riasyee)** \n\n"
   TEXT += f"» **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{telever}` \n\n"
   TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tlhver}` \n\n"
   TEXT += f"» **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n━━━━━━━━━━━━━━━━━\n\n"
-  BUTTON = [[Button.url("ʜᴇʟᴘ​", "https://t.me/rio2robot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/riogroupsupport")]]
+  BUTTON = [[Button.url("ʜᴇʟᴘ​", "https://t.me/mircmusicbot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/rioprojects")]]
   ran = random.choice(PHOTO)
   await tbot.send_file(event.chat_id, ran, caption=TEXT,  buttons=BUTTON)
 
